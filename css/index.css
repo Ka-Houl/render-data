@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+	margin: 0;
+	font-weight: normal;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrap{
+	position: relative;
+	width: 375px;
+	height: 667px;
+	margin: 100px auto;
+	box-shadow: 0 0 5px #999;
+}
+
+.header{
+	height: 44px;
+	background-color: #000;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+}
+
+.course .loading{
+	/*display: none;*/
+	height: 44px;
+	background-color: #eee;
+	text-align: center; 
+	line-height: 44px;
+	font-size: 14px;
+}
+
+.course .list{
+    height: 579px;
+    overflow: auto;
+}
+
+.course .list-item{
+	height: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+}
+
+.course .list-item .inner{
+	position: relative;
+	height: 100%;
+	border: 1px solid #000;
+}
+
+.course .list-item .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 141px;
+}
+
+.course .list-item .info{
+	width: 195px;
+	padding-left: 151px;
+}
+
+.course .list-item .img img{
+	width: 100%;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 44px;
+	width: 100%;
+	border-top: 1px solid #ddd;
+}
+
+.footer .btn-item{
+	float: left;
+	width: 20%; 
+	height: 100%;
+}
+
+.footer .btn-item.cur .page-lk{
+	background-color: #ddd;
+	color: #000;
+}
+
+.footer .btn-item .page-lk{
+    display: block;
+	width: 30px;
+	height: 30px;
+	margin: 7px auto;
+	background-color: #000;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
